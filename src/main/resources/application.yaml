@@ -1,0 +1,13 @@
+server:
+  port: 30001
+
+spring:
+  cloud:
+    config:
+      label: develop
+  output:
+    ansi:
+      enabled: always
+
+  application:
+    name: user-service
